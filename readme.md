@@ -19,7 +19,7 @@
 4. Click "Import Theme" button
 5. Select theme file to be imported
 6. Repeat import for additional theme styles, if needed
-7. Select Theme from Gallery to use. 
+7. Select Theme from Settings to use. 
 
 ## Gallery
 
@@ -27,7 +27,9 @@
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/bump)
+- [Robert Occhialini](https://github.com/bump)
+
+- Honorable Mention to [Jonathan Clark](https://github.com/jgclark) for his [Theme Test Note](https://noteplan.co/n/D38E5E06-959F-4570-9253-C7142C76EF02)
 
 ## Contributing
 
