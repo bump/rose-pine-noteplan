@@ -1,0 +1,247 @@
+{
+  "name": "Rose Pine Moon",
+  "style": "Dark",
+  "isDark": true,
+  "editor": {
+    "backgroundColor": "#232136",
+    "altBackgroundColor": "#2a273f",
+    "tintColor": "#c4a7e7",
+    "tintColor2": "#9ccfd8",
+    "textColor": "#e0def4",
+    "toolbarBackgroundColor": "#2a273f",
+    "toolbarIconColor": "#908caa",
+    "menuItemColor": "#908caa",
+    "timeBlockColor": "#f6c177",
+    "shouldOverwriteFont": false,
+    "sidebarStyleOverride": "dark",
+    "sidebarIconColorOverride": "#c4a7e7"
+  },
+  "__orderedStyles": [
+    "title-mark1",
+    "title-mark2",
+    "title-mark3",
+    "body",
+    "quote-content",
+    "bold",
+    "bold-left-mark",
+    "bold-right-mark",
+    "italic",
+    "italic-left-mark",
+    "italic-right-mark",
+    "boldItalic",
+    "boldItalic-left-mark",
+    "boldItalic-right-mark",
+    "code",
+    "code-left-backtick",
+    "code-right-backtick",
+    "checked-todo-characters",
+    "todo",
+    "checked",
+    "quote-mark",
+    "tabbed",
+    "link",
+    "hashtag",
+    "attag",
+    "schedule-to-date-link",
+    "done-date",
+    "schedule-from-date-link",
+    "title1",
+    "title2",
+    "title3"
+  ],
+  "styles": {
+    "body": {
+      "color": "#e0def4",
+      "font": "AvenirNext-Regular",
+      "size": 16
+    },
+    "title1": {
+      "font": "AvenirNext-Bold",
+      "size": 28,
+      "color": "#c4a7e7"
+    },
+    "title2": {
+      "font": "AvenirNext-Bold",
+      "size": 24,
+      "color": "#9ccfd8"
+    },
+    "title3": {
+      "font": "AvenirNext-Bold",
+      "size": 20,
+      "color": "#ea9a97"
+    },
+    "title4": {
+      "font": "AvenirNext-Bold",
+      "size": 18,
+      "color": "#f6c177"
+    },
+    "bold": {
+      "font": "AvenirNext-Bold",
+      "color": "#e0def4"
+    },
+    "italic": {
+      "font": "AvenirNext-Italic",
+      "color": "#e0def4"
+    },
+    "todo": {
+      "color": "#c0caf5",
+      "headIndent": 33,
+      "size": 16,
+      "lineSpacing": 0.9
+    },
+    "checked-todo-characters": {
+      "headIndent": 33,
+      "size": 16
+    },
+    "tabbed": {
+      "headIndent": 43
+    },
+    "checked": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\])([^@]*)",
+      "color": "#565f89",
+      "matchPosition": 0,
+      "headIndent": 33,
+      "lineSpacing": 0.9
+    },
+    "checked-canceled": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#66565f89",
+      "strikethroughStyle": 1,
+      "headIndent": 33,
+      "lineSpacing": 0.9
+    },
+    "checked-scheduled": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#447dcfff",
+      "headIndent": 33,
+      "lineSpacing": 0.9
+    },
+    "quote-mark": {
+      "color": "#6e6a86",
+      "headIndent": 33
+    },
+    "quote-content": {
+      "color": "#e0def4",
+      "type": "italic",
+      "headIndent": 33
+    },
+    "link": {
+      "color": "#c4a7e7"
+    },
+    "schedule-to-date-link": {
+      "color": "#7dcfff"
+    },
+    "done-date": {
+      "color": "#565f89"
+    },
+    "schedule-from-date-link": {
+      "color": "#7dcfff"
+    },
+    "hashtag": {
+      "color": "#3e8fb0",
+      "backgroundColor": "#2a273f",
+      "borderRadius": 6
+    },
+    "attag": {
+      "color": "#eb6f92",
+      "backgroundColor": "#2a273f",
+      "borderRadius": 6
+    },
+    "highlighted": {
+      "backgroundColor": "#393552",
+      "color": "#e0def4"
+    },
+    "strikethrough": {
+      "color": "#6e6a86",
+      "strikethroughColor": "#6e6a86"
+    },
+    "underline": {
+      "underlineStyle": 2,
+      "underlineColor": "#eb6f92"
+    },
+    "code": {
+      "font": "Menlo-Regular",
+      "color": "#9ccfd8",
+      "backgroundColor": "#2a273f",
+      "size": 14
+    },
+    "code-left-backtick": {
+      "color": "#6e6a86"
+    },
+    "code-right-backtick": {
+      "color": "#6e6a86"
+    },
+    "code-fence": {
+      "theme": "one-dark",
+      "corner-radius": 8,
+      "body": {
+        "font": "Menlo-Regular",
+        "backgroundColor": "#16161e",
+        "size": 14
+      },
+      "language-specifier": {
+        "font": "Menlo-Italic",
+        "color": "#565f89",
+        "size": 14
+      },
+      "fence-open": {
+        "color": "#565f89"
+      },
+      "fence-close": {
+        "color": "#565f89"
+      }
+    },
+    "flagged-1": {
+      "backgroundColor": "#db4b4b20",
+      "color": "#db4b4b"
+    },
+    "flagged-2": {
+      "backgroundColor": "#db4b4b30",
+      "color": "#db4b4b"
+    },
+    "flagged-3": {
+      "backgroundColor": "#db4b4b40",
+      "color": "#db4b4b"
+    },
+    "working-on": {
+      "backgroundColor": "#7aa2f720",
+      "color": "#7aa2f7"
+    },
+    "comment": {
+      "color": "#6e6a86",
+      "italic": true
+    },
+    "special-char": {
+      "color": "#eb6f92"
+    },
+    "pilcrow": {
+      "regex": "(.*)\u00b6(.*)",
+      "matchPosition": 2,
+      "color": "#db4b4b"
+    },
+    "field": {
+      "color": "#9ccfd8"
+    },
+    "attribute": {
+      "color": "#3e8fb0"
+    },
+    "template-tag": {
+      "regex": "<%([^%]*)%>",
+      "color": "#9ccfd8",
+      "backgroundColor": "#44415a40"
+    },
+    "template-comment": {
+      "regex": "<%#([^%]*)%>",
+      "color": "#6e6a86",
+      "backgroundColor": "#44415a20"
+    },
+    "time-block-tag": {
+      "regex": "(#\ud83d\udd51)",
+      "matchPosition": 0,
+      "color": "#16161e",
+      "backgroundColor": "#16161e"
+    }
+  }
+}

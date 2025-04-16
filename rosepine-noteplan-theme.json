@@ -1,19 +1,21 @@
 {
-  "name": "Rosé Pine Dawn",
-  "isDark": false,
+  "name": "Rose Pine",
+  "style": "Dark",
+  "isDark": true,
   "editor": {
-    "backgroundColor": "#faf4ed",
-    "altBackgroundColor": "#fffaf3",
-    "tintColor": "#907aa9",
-    "tintColor2": "#56949f",
-    "textColor": "#575279",
-    "toolbarBackgroundColor": "#f2e9e1",
-    "toolbarIconColor": "#797593",
-    "menuItemColor": "#797593",
-    "timeBlockColor": "#d7827e",
-    "shouldOverwriteFont": false
+    "backgroundColor": "#191724",
+    "altBackgroundColor": "#1f1d2e",
+    "tintColor": "#c4a7e7",
+    "tintColor2": "#9ccfd8",
+    "textColor": "#e0def4",
+    "toolbarBackgroundColor": "#1f1d2e",
+    "toolbarIconColor": "#908caa",
+    "menuItemColor": "#908caa",
+    "timeBlockColor": "#f6c177",
+    "shouldOverwriteFont": false,
+    "sidebarStyleOverride": "dark",
+    "sidebarIconColorOverride": "#c4a7e7"
   },
-  
   "__orderedStyles": [
     "title-mark1",
     "title-mark2",
@@ -47,41 +49,45 @@
     "title2",
     "title3"
   ],
-
   "styles": {
     "body": {
-      "color": "#575279",
+      "color": "#e0def4",
       "font": "AvenirNext-Regular",
       "size": 16
     },
     "title1": {
       "font": "AvenirNext-Bold",
       "size": 28,
-      "color": "#907aa9"
+      "color": "#c4a7e7"
     },
     "title2": {
       "font": "AvenirNext-Bold",
       "size": 24,
-      "color": "#56949f"
+      "color": "#9ccfd8"
     },
     "title3": {
       "font": "AvenirNext-Bold",
       "size": 20,
-      "color": "#d7827e"
+      "color": "#ebbcba"
+    },
+    "title4": {
+      "font": "AvenirNext-Bold",
+      "size": 18,
+      "color": "#f6c177"
     },
     "bold": {
       "font": "AvenirNext-Bold",
-      "color": "#575279"
+      "color": "#e0def4"
     },
     "italic": {
       "font": "AvenirNext-Italic",
-      "color": "#575279"
+      "color": "#e0def4"
     },
     "todo": {
-      "color": "#575279",
+      "color": "#c0caf5",
       "headIndent": 33,
       "size": 16,
-      "lineSpacing": 0.90
+      "lineSpacing": 0.9
     },
     "checked-todo-characters": {
       "headIndent": 33,
@@ -92,116 +98,150 @@
     },
     "checked": {
       "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\])([^@]*)",
-      "color": "#9893a5",
+      "color": "#565f89",
       "matchPosition": 0,
       "headIndent": 33,
-      "lineSpacing": 0.90
+      "lineSpacing": 0.9
     },
     "checked-canceled": {
       "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
       "matchPosition": 0,
-      "color": "#669893a5",
+      "color": "#66565f89",
       "strikethroughStyle": 1,
       "headIndent": 33,
-      "lineSpacing": 0.90
+      "lineSpacing": 0.9
     },
     "checked-scheduled": {
       "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
       "matchPosition": 0,
-      "color": "#4456949f",
+      "color": "#447dcfff",
       "headIndent": 33,
-      "lineSpacing": 0.90
+      "lineSpacing": 0.9
     },
     "quote-mark": {
-      "color": "#9893a5",
+      "color": "#6e6a86",
       "headIndent": 33
     },
     "quote-content": {
-      "color": "#6e6a86",
+      "color": "#e0def4",
       "type": "italic",
       "headIndent": 33
     },
     "link": {
-      "color": "#907aa9"
+      "color": "#c4a7e7"
     },
     "schedule-to-date-link": {
-      "color": "#d7827e"
+      "color": "#7dcfff"
     },
     "done-date": {
-      "color": "#9893a5"
+      "color": "#565f89"
     },
     "schedule-from-date-link": {
-      "color": "#d7827e"
+      "color": "#7dcfff"
     },
     "hashtag": {
-      "color": "#56949f",
-      "backgroundColor": "#fffaf3",
+      "color": "#31748f",
+      "backgroundColor": "#1f1d2e",
       "borderRadius": 6
     },
     "attag": {
-      "color": "#ea9d34",
-      "backgroundColor": "#fffaf3",
+      "color": "#eb6f92",
+      "backgroundColor": "#1f1d2e",
       "borderRadius": 6
     },
     "highlighted": {
-      "backgroundColor": "#f4ede8",
-      "color": "#575279"
+      "backgroundColor": "#26233a",
+      "color": "#e0def4"
     },
     "strikethrough": {
-      "color": "#9893a5",
-      "strikethroughColor": "#9893a5"
+      "color": "#6e6a86",
+      "strikethroughColor": "#6e6a86"
     },
     "underline": {
       "underlineStyle": 2,
-      "underlineColor": "#ea9d34"
+      "underlineColor": "#eb6f92"
     },
     "code": {
       "font": "Menlo-Regular",
-      "color": "#286983",
-      "backgroundColor": "#fffaf3",
+      "color": "#9ccfd8",
+      "backgroundColor": "#1f1d2e",
       "size": 14
     },
     "code-left-backtick": {
-      "color": "#66286983"
+      "color": "#6e6a86"
     },
     "code-right-backtick": {
-      "color": "#66286983"
+      "color": "#6e6a86"
     },
     "code-fence": {
-      "theme": "github",
+      "theme": "one-dark",
       "corner-radius": 8,
       "body": {
         "font": "Menlo-Regular",
-        "backgroundColor": "#fffaf3",
+        "backgroundColor": "#16161e",
         "size": 14
       },
       "language-specifier": {
         "font": "Menlo-Italic",
-        "color": "#9893a5",
+        "color": "#565f89",
         "size": 14
       },
       "fence-open": {
-        "color": "#9893a5"
+        "color": "#565f89"
       },
       "fence-close": {
-        "color": "#9893a5"
+        "color": "#565f89"
       }
     },
     "flagged-1": {
-      "backgroundColor": "#d7827e20",
-      "color": "#d7827e"
+      "backgroundColor": "#db4b4b20",
+      "color": "#db4b4b"
     },
     "flagged-2": {
-      "backgroundColor": "#d7827e30",
-      "color": "#d7827e"
+      "backgroundColor": "#db4b4b30",
+      "color": "#db4b4b"
     },
     "flagged-3": {
-      "backgroundColor": "#d7827e40",
-      "color": "#d7827e"
+      "backgroundColor": "#db4b4b40",
+      "color": "#db4b4b"
     },
     "working-on": {
-      "backgroundColor": "#907aa920",
-      "color": "#907aa9"
+      "backgroundColor": "#7aa2f720",
+      "color": "#7aa2f7"
+    },
+    "comment": {
+      "color": "#6e6a86",
+      "italic": true
+    },
+    "special-char": {
+      "color": "#eb6f92"
+    },
+    "pilcrow": {
+      "regex": "(.*)\u00b6(.*)",
+      "matchPosition": 2,
+      "color": "#db4b4b"
+    },
+    "field": {
+      "color": "#9ccfd8"
+    },
+    "attribute": {
+      "color": "#31748f"
+    },
+    "template-tag": {
+      "regex": "<%([^%]*)%>",
+      "color": "#9ccfd8",
+      "backgroundColor": "#403d5240"
+    },
+    "template-comment": {
+      "regex": "<%#([^%]*)%>",
+      "color": "#6e6a86",
+      "backgroundColor": "#403d5220"
+    },
+    "time-block-tag": {
+      "regex": "(#\ud83d\udd51)",
+      "matchPosition": 0,
+      "color": "#16161e",
+      "backgroundColor": "#16161e"
     }
   }
 }
